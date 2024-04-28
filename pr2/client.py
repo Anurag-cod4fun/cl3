@@ -1,3 +1,7 @@
+# Design a distributed application using RMI for remote computation where client
+# submits two strings to the server and server returns the concatenation of the given
+# strings.
+
 import Pyro4
 uri = input("Enter the URI of the server: ")
 concatenator = Pyro4.Proxy(uri)

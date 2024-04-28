@@ -1,3 +1,8 @@
+# Implement Union, Intersection, Complement and Difference operations on fuzzy sets. Also
+# create fuzzy relations by Cartesian product of any two fuzzy sets and perform max-min
+# composition on any two fuzzy relations
+
+
 import numpy as np
 # Function to perform Union operation on fuzzy sets
 def fuzzy_union(A, B):
